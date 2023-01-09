@@ -1,0 +1,134 @@
+body {
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Arial, sans-serif;
+    }
+  hr {
+  border-style: none;
+  border-top-style: dotted;
+  width: 5%;
+  border-width: 5px;
+  border-color: grey;
+  }
+
+.profile-picture { 
+    width: 30%; 
+    height: 30%;
+    float: right;
+}
+
+.cicular {
+border-radius: 100%;
+}
+
+
+.contact-label {
+display:block;
+margin-top: 2%;
+}
+
+input :autofill {
+    border: 2px solid rgb(0, 0, 0);
+}
+
+
+h1 {
+    margin: 1rem auto 0rem auto;
+    font-family: 'Sora', sans-serif;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    color: #6ba6e8;
+}
+
+h2 {
+    font-family: 'Sora', sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+    color: #002f70;
+}
+
+h3 {
+    font-family: 'Sora', sans-serif;
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: #002f70;
+
+}
+
+h4 {
+    font-family: 'Sora', sans-serif;
+    font-weight: normal;
+
+}
+
+h5{
+    font-family: 'Sora', sans-serif;
+    font-weight: normal;
+
+}
+
+.copyright{
+    color: rgb(30, 53, 42);
+    font-size: 0.75rem;
+}
+
+p {
+    font-family: 'Sora', sans-serif;
+    font-weight: normal;
+    line-height: 2;
+}
+
+.homepage-text {
+    margin-top: 10rem;
+}
+
+.middle-container {
+    margin: 10rem 10% 0px 10%;
+}
+
+.works {
+width: 80%;
+margin: 10rem 10% 0px 10%;
+}
+
+.works-row {
+    margin: 10rem auto 10rem auto;
+
+    }
+
+    .contact-button {
+        display: inline-block;
+        padding: 12px 24px;
+        border-radius: 10px;
+        background-color: #75fac8;
+        background-image: linear-gradient(135deg, #c2fbe6, #4eedc5);
+        transition: opacity 150ms ease;
+        color: #002f70;
+        margin-top: 1.5rem;
+        border: none;
+        text-decoration: none;
+    }
+
+    .contact-button:hover{
+        background-color: #bcf3de;
+        color: #7c9bc6;
+        background-image: linear-gradient(135deg, #c2fbe6, #bcf3de);
+    }
+
+    .contact-button:active{
+        transform: scale(0.98);
+        box-shadow: 1px 1px 1px 1px rgba(212, 255, 255, 0.915);
+    }
+
+    .bottom-container {
+
+        background-image: linear-gradient(#ffffff, #cdfef5);
+        text-align: center;
+        padding: 3rem 0px 1rem 0px;
+        margin: none;
+    }
+
+    .contact-me {
+        margin:  10% 0px 10%;
+        padding: 3rem 0px 1rem 0px;
+        text-align: center;
+    }
